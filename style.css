@@ -1,0 +1,97 @@
+.widget {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 1%;
+    
+}
+
+li{
+    list-style-type: none;
+    height: 200%;
+    text-align: justify;
+    padding: 0;
+    margin: auto;
+    
+}    
+
+footer{
+    padding-top: 2px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.primeira {
+    width: 100%;
+    max-height: 335px;
+    margin: auto;
+    object-fit: cover;
+
+
+}
+
+.hour {
+    height: 15%; padding: 2%; width: 60vh;
+    max-width: 100%;
+    display:flex;
+    padding: 0;
+    
+    
+}
+
+.luz {
+    display:row;
+    align-content: left;
+    align-items:normal;
+    padding-right: 1vh;
+    padding-left: 1vh;   
+    column-count: 3;
+    column-gap: 10px;
+
+}
+
+.luzi {
+    display:row;
+    column-count: 2;
+    align-content: center;
+    align-items: self-start;
+    padding-top: 1%;
+    padding-right: 100px;
+    padding-left: 150px;
+    text-align: left;
+    padding: 0px;
+    column-gap: 10px;
+}
+
+.cardapio {
+    display: block;
+    width: 250px;
+    border-radius: 100px;
+    align-content: center;
+    padding-inline: 10px;
+}
+
+h3 {
+    text-align: left;
+    color: red;
+    
+}
+
+.descricao {
+    text-align: justify;
+
+}
+
+.icon {
+ padding: 0; padding-bottom: 2px;
+}
+
+body {
+    background-color:hsl(48, 38%, 2%);
+    color: white;
+}
+
+.mapa{
+    text-align: center;
+}
+
