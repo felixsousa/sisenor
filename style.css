@@ -1,0 +1,106 @@
+.icon {
+    padding: 0; padding-bottom: 2px;
+   }
+   
+   body {
+       background-color:hsl(48, 38%, 2%);
+       color: white;
+   }
+   
+   .mapa{
+       text-align: center;
+   }
+   
+   .nav-item, .navbar-brand, .nav-link dropdown-toggle {
+       font-size: 25px;
+       text-align: center;
+       margin-left: 100px;
+       padding-bottom: 15px;
+   
+   }
+
+.widget {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 1%;
+    
+}
+
+li{
+    list-style-type: none;
+    height: 200%;
+    text-align: justify;
+    padding: 0;
+    margin: auto;
+    
+}    
+
+footer{
+    padding-top: 2px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.primeira {
+    width: 100%;
+    max-height: 335px;
+    margin: auto;
+    object-fit: cover;
+
+
+}
+
+.hour {
+    height: 15%; padding: 2%; width: 60vh;
+    max-width: 100%;
+    display:flex;
+    padding: 0;
+    
+    
+}
+
+.luz {
+    display: row;
+    justify-content: space-between;
+    column-count: 3;
+    width: 100%;
+    margin-right: 30px;
+   
+}
+
+.luzi {
+    display: row;
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+    text-align: left;
+    margin-right: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+   
+}
+
+.cardapio {
+    width: 250px;
+    border-radius: 1.9em;
+    object-fit: cover;
+    margin-right: 1.8em;
+    margin-left: 0.5em;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: left;
+    color: red;
+    margin-left: 30px;
+    
+}
+
+.descricao {
+    text-align: justify;
+    
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
