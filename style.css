@@ -1,3 +1,24 @@
+.icon {
+    padding: 0; padding-bottom: 2px;
+   }
+   
+   body {
+       background-color:hsl(48, 38%, 2%);
+       color: white;
+   }
+   
+   .mapa{
+       text-align: center;
+   }
+   
+   .nav-item, .navbar-brand, .nav-link dropdown-toggle {
+       font-size: 25px;
+       text-align: center;
+       margin-left: 100px;
+       padding-bottom: 15px;
+   
+   }
+
 .widget {
     display: flex;
     justify-content: center;
@@ -40,58 +61,46 @@ footer{
 }
 
 .luz {
-    display:row;
-    align-content: left;
-    align-items:normal;
-    padding-right: 1vh;
-    padding-left: 1vh;   
+    display: row;
+    justify-content: space-between;
     column-count: 3;
-    column-gap: 10px;
-
+    width: 100%;
+    margin-right: 30px;
+   
 }
 
 .luzi {
-    display:row;
+    display: row;
+    justify-content: center;
+    align-items: center;
     column-count: 2;
-    align-content: center;
-    align-items: self-start;
-    padding-top: 1%;
-    padding-right: 100px;
-    padding-left: 150px;
     text-align: left;
-    padding: 0px;
-    column-gap: 10px;
+    margin-right: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+   
 }
 
 .cardapio {
-    display: block;
     width: 250px;
-    border-radius: 100px;
-    align-content: center;
-    padding-inline: 10px;
+    border-radius: 1.9em;
+    object-fit: cover;
+    margin-right: 1.8em;
+    margin-left: 0.5em;
+    margin-top: 10px;
 }
 
 h3 {
     text-align: left;
     color: red;
+    margin-left: 30px;
     
 }
 
 .descricao {
     text-align: justify;
-
-}
-
-.icon {
- padding: 0; padding-bottom: 2px;
-}
-
-body {
-    background-color:hsl(48, 38%, 2%);
-    color: white;
-}
-
-.mapa{
-    text-align: center;
+    
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
